@@ -20,6 +20,7 @@ poetry install
 * just move the .csv files somewhere locally that the notebook can reference to
 * the key libraries that the repo uses are
     * altair
+    * vegafusion[embed] (to save altair charts as images)
     * scikit learn
     * pandas
     * numpy 
