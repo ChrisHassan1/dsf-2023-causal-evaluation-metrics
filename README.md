@@ -7,6 +7,9 @@ We recommend the following excellent book to understand these concepts better [C
 
 ## package setup
 
+### virtual env setup
+no instructions - can setup a virtual env before running the below
+
 ### poetry installation
 from the terminal simply run the command
 ```bash
@@ -15,7 +18,11 @@ poetry install
 
 ### otherwise
 * just move the .csv files somewhere locally that the notebook can reference to
-
+* the key libraries that the repo uses are
+    * altair
+    * scikit learn
+    * pandas
+    * numpy 
 
 ## example notebook
 see notebook in examples/causal_eval_metrics.ipynb
