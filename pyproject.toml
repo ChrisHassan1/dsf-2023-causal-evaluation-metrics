@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dsf-2023-causal-evaluation-metrics"
+version = "0.1.0"
+description = "notebook that helps to get familiar with causal evaluation metricsc"
+authors = ["chris <christopher.hassan@icloud.com>"]
+readme = "README.md"
+packages = [
+    {include = "dsf_2023"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+altair = "^5.1.2"
+scikit-learn = "^1.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
